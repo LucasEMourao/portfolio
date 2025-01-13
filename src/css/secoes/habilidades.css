@@ -10,8 +10,7 @@
 .habilidades .container-habilidades .informacoes {
   max-width: 350px;
   padding: 40px 20px;
-  border: solid red 1px;
-  border-radius: 5px;
+  cursor: pointer;
   &:hover {
     transform: scale(1.05);
   }

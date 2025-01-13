@@ -18,7 +18,10 @@
     -moz-transition: all .3s ease;
     -o-transition: all .3s ease;
     -webkit-transition: all .3s ease;
-    position: relative;            
+    position: relative;
+    &:hover {
+        transform: scale(1.05);
+      }        
 }
 
 .projetos .container-projetos .projeto:hover,
